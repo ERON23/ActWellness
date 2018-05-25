@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "198864795248",
+    "firebase_url": "https://activewellness-172a0.firebaseio.com",
+    "project_id": "activewellness-172a0",
+    "storage_bucket": "activewellness-172a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198864795248:android:308534c9373abacf",
+        "android_client_info": {
+          "package_name": "com.example.eronmac.actwellness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198864795248-mgvfra5hs2ka1p8h4c0mpe9nep4k4md0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eronmac.actwellness",
+            "certificate_hash": "9296293db767b6e81f4f497bb7196bcab59f7760"
+          }
+        },
+        {
+          "client_id": "198864795248-rap3bd43rp2p1q65pgsuv9nouqb21p8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxf_nqd-M7G1WDGAbYBkadXD67RNPEueA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198864795248-rap3bd43rp2p1q65pgsuv9nouqb21p8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

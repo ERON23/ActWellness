@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eronmac.actwellness.RightAfterLogin">
+
+    <EditText
+        android:id="@+id/editText_tname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="55dp"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/textView_Toning"
+        android:layout_alignLeft="@+id/editText_trep"
+        android:layout_alignStart="@+id/editText_trep" />
+
+    <EditText
+        android:id="@+id/editText_trep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_tsets"
+        android:layout_alignStart="@+id/editText_tsets"
+        android:layout_below="@+id/editText_tname"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Reps"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/editText_tsets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_trep"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Sets"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/textView_Toning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customized Excercises"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editText_tname"
+        android:layout_alignStart="@+id/editText_tname"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_toning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Data"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="192dp"
+        android:layout_below="@+id/editText_tname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_viewdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Data"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:layout_alignBaseline="@+id/button_toning"
+        android:layout_alignBottom="@+id/button_toning"
+        android:layout_toRightOf="@+id/editText_tname"
+        android:layout_toEndOf="@+id/editText_tname" />
+</RelativeLayout>

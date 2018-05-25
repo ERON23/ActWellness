@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActiveWellness</string>
+    <string name="not_revoke">revoke</string>
+    <string name="not_close_session">not close session</string>
+    <string name="reps">Reps</string>
+    <string name="name">Name</string>
+    <string name="sets">Sets</string>
+</resources>
